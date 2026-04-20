@@ -48,18 +48,39 @@ private String penulis;
 private int stok;
 private boolean tersedia;
 
-=== Selamat Datang di Perpustakaan Digital ===
+## 🖥️ Tampilan Antarmuka
+Program dijalankan melalui terminal dengan menu interaktif sebagai berikut:
 
-Menu:
-1. Cek Info Buku
-2. Pinjam Buku
-3. Kembalikan Buku
-4. Tambah Stok (Admin)
-5. Keluar
-Pilih opsi (1-5): 1
+| Opsi | Fitur | Deskripsi |
+| :--- | :--- | :--- |
+| **1** | **Cek Info** | Menampilkan judul, penulis, sisa stok, dan status buku. |
+| **2** | **Pinjam** | Mengurangi stok secara otomatis dan memperbarui status ketersediaan. |
+| **3** | **Kembali** | Menambahkan stok kembali setelah buku selesai digunakan. |
+| **4** | **Restock** | Fitur khusus admin untuk menambah suplai buku baru. |
+| **5** | **Keluar** | Mengakhiri sesi program secara aman. |
 
---------------------------------
-Judul   : Pemrograman Java
-Penulis : Budi Raharjo
-Stok    : 2
-Status  : Tersedia
+> **Log Preview:**
+> ```text
+> === Selamat Datang di Perpustakaan Digital ===
+> 
+> Menu:
+> 1. Cek Info Buku
+> 2. Pinjam Buku
+> ...
+> Pilih opsi (1-5): 1
+> --------------------------------
+> Judul   : Pemrograman Java
+> Penulis : Budi Raharjo
+> Stok    : 2
+> Status  : Tersedia
+> ```
+
+---
+
+## 👨‍💻 Profil Pengembang
+
+| Informasi | Detail |
+| :--- | :--- |
+| **Nama** | Raditya Maheswara |
+| **Institusi** | Institut Bisnis dan Teknologi Indonesia (INSTIKI) |
+| **Program Studi** | S1 Teknik Informatika (Informatics) |
