@@ -47,10 +47,10 @@ private String judul;
 private String penulis;
 private int stok;
 private boolean tersedia;
-
+```
 ## 🖥️ Tampilan Antarmuka
 Program dijalankan melalui terminal dengan menu interaktif sebagai berikut:
-
+```
 | Opsi | Fitur | Deskripsi |
 | :--- | :--- | :--- |
 | **1** | **Cek Info** | Menampilkan judul, penulis, sisa stok, dan status buku. |
@@ -76,9 +76,9 @@ Program dijalankan melalui terminal dengan menu interaktif sebagai berikut:
 > ```
 
 ---
-
+```
 ## 👨‍💻 Profil Pengembang
-
+```
 | Informasi | Detail |
 | :--- | :--- |
 | **Nama** | Raditya Maheswara |
